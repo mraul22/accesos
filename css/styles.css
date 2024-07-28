@@ -1,0 +1,51 @@
+body.dark-mode {
+    background-color: #121212;
+    color: #ffffff;
+}
+
+.dark-mode .navbar, .dark-mode .card, .dark-mode .table {
+    background-color: #1e1e1e;
+    color: #ffffff;
+}
+
+.dark-mode th, .dark-mode td {
+    color: #ffffff;
+}
+
+.navbar-nav {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scrollspy-example {
+    padding-top: 40px;
+    position: relative;
+    height: 300px;
+    overflow-y: auto;
+    margin-top: .75rem;
+}
+
+.nav-scroller .nav {
+    display: flex;
+    flex-wrap: nowrap;
+    padding-bottom: 1rem;
+    margin-top: 0;
+    margin-bottom: 0;
+    list-style: none;
+}
+
+.nav-scroller .nav-link {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    font-size: 0.875rem;
+    color: #6c757d;
+}
+
+.nav-scroller .nav-link:hover {
+    color: #007bff;
+}
+
+.nav-scroller .nav-link.active {
+    font-weight: 500;
+    color: #495057;
+}
